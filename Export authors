@@ -1,0 +1,9 @@
+<?php
+// Inside dashboard.php or admin_dashboard.php
+
+if(isset($_POST['exportUsers'])){
+    // Implement logic to export users to PDF, Textfile, and Excel
+}
+
+// Your HTML code for the export button
+?>
