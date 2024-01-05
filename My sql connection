@@ -1,9 +1,0 @@
-<?php
-require_once 'constant.php';
-
-$mysqli = new mysqli(Host_Name, Database_User, Password, Database_Name);
-
-if ($mysqli->connect_error) {
-    die('Connection failed: ' . $mysqli->connect_error);
-}
-?>
