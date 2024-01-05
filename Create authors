@@ -1,0 +1,12 @@
+<?php
+// Inside author_dashboard.php or admin_dashboard.php
+
+session_start();
+
+if(!isset($_SESSION['UserType'])){
+    header("Location: index.php"); // Redirect to login if not logged in
+    exit();
+}
+
+// Your specific dashboard code here
+?>
