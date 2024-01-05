@@ -1,0 +1,6 @@
+<?php
+// Inside the logic where new articles are added
+
+// Implement logic to send email notification to administrators
+mail('admin@example.com', 'New Article Posted', 'A new article has been posted on the website.');
+?>
